@@ -1,6 +1,6 @@
 # https://github.com/bcgov/clamav/blob/master/Dockerfile
 
-FROM whoalxp.azurecr.io/docker-clamav:openshift.0.3
+FROM whoalxp.azurecr.io/docker-clamav:openshit-base
 
 COPY config/clamd.conf /etc/clamd.conf
 COPY config/freshclam.conf /etc/freshclam.conf
