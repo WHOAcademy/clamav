@@ -1,6 +1,6 @@
 cd $(pwd)
 
-version='0.3'
+version='0.4'
 
 docker build -t whoalxp.azurecr.io/docker-clamav:openshift.$version .
 
